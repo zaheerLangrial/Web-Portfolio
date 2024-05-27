@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ProfilePic from "../assets/bgRemove.png";
+import ShinyEffect from "./ShinyEffect";
 
 const Hero = () => {
   return (
@@ -29,6 +30,12 @@ const Hero = () => {
           <button className="transform transition-transform hover:scale-105 hover:shadow-lgd z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 border border-gray-400 rounded-xl">View Work</button>
         </div>
       </div>
+            <div className=" absolute inset-0 overflow-hidden">
+            <div className="hidden md:block" >
+            <ShinyEffect left={100} top={200} size={1600} />
+            </div>
+      <ShinyEffect left={100} top={200} size={1200} />
+            </div>
       <img
         src={ProfilePic}
         alt="Developer Image"
