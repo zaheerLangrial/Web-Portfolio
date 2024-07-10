@@ -33,3 +33,12 @@ p{
     z-index: 1;
     background: radial-gradient(circle, rgba(70, 161, 181, 0.2), transparent 70%);
 }
+
+/* .skewed {
+    transform: scaleX(1.5);
+  }
+
+
+  .skewed1 {
+    transform: skew(312deg, 0deg);
+  } */

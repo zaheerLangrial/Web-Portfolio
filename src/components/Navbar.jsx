@@ -5,6 +5,13 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
+    // <div className="flex w-full overflow-hidden h-20 bg-white">
+    //   <div className=" bg-[#fce122] w-[35%] skewed" />
+    //   <div className=" w-[75%] skewed1 flex flex-col">
+    //     <div className="h-[40%] bg-[#24292f]"></div>
+    //     <div className="h-[60%] bg-white"></div>
+    //   </div>
+    // </div>
     <div className="flex text-2xl justify-between text-gray-200 items-center px-6 max-w-[1300px] mx-auto h-24">
       <a>Zaheer</a>
 
